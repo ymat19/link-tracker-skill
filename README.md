@@ -1,6 +1,6 @@
-# link-tracker
+# link-tracker-skill
 
-A lightweight redirect server that logs link clicks.
+A lightweight redirect server that logs link clicks. Works as an agent skill (OpenClaw, etc.) or standalone.
 
 ## Use Cases
 
@@ -11,13 +11,13 @@ A lightweight redirect server that logs link clicks.
 ## Installation
 
 ```bash
-git clone https://github.com/ymat19/link-tracker.git
+git clone https://github.com/ymat19/link-tracker-skill.git
 ```
 
-### As OpenClaw Skill
+### As Agent Skill (OpenClaw, etc.)
 
 ```bash
-ln -s /path/to/link-tracker/skill ~/.openclaw/skills/link-tracker
+ln -s /path/to/link-tracker-skill/skill ~/.openclaw/skills/link-tracker
 ```
 
 ## Usage
