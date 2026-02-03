@@ -1,9 +1,6 @@
 ---
 name: link-tracker
 description: Track link clicks via a local redirect server. Use when generating reports with trackable links, analyzing user interests, or building preference learning systems. Convert URLs to tracking URLs and read click logs for feedback.
-metadata:
-  openclaw:
-    emoji: "🔗"
 ---
 
 # Link Tracker
