@@ -1,0 +1,15 @@
+services:
+  link-tracker:
+    build: .
+    container_name: link-tracker
+    ports:
+      - "59934:59934"
+    volumes:
+      - ./data:/data
+    environment:
+      - PORT=59934
+      - LOG_PATH=/data/clicks.jsonl
+      - LOG_UA=false
+      - LOG_IP=false
+      # - ALLOWED_DOMAINS=github.com,gitlab.com
+    restart: unless-stopped
