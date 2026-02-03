@@ -1,10 +1,8 @@
-# openclaw-skill-link-tracker
+# link-tracker
 
-An [OpenClaw](https://github.com/openclaw/openclaw) skill for tracking link clicks.
+A lightweight redirect server that logs link clicks.
 
-## Overview
-
-A lightweight redirect server that logs link clicks. Use it for:
+## Use Cases
 
 - **Preference Learning** — Track which links users click to learn their interests
 - **Newsletter Analytics** — Measure engagement with shared content
@@ -13,23 +11,13 @@ A lightweight redirect server that logs link clicks. Use it for:
 ## Installation
 
 ```bash
-# Clone
-git clone https://github.com/ymat19/openclaw-skill-link-tracker.git
-
-# Symlink to OpenClaw skills
-ln -s /path/to/openclaw-skill-link-tracker/skill ~/.openclaw/skills/link-tracker
+git clone https://github.com/ymat19/link-tracker.git
 ```
 
-Or add to `~/.openclaw/openclaw.json`:
+### As OpenClaw Skill
 
-```json
-{
-  "skills": {
-    "load": {
-      "extraDirs": ["/path/to/openclaw-skill-link-tracker/skill"]
-    }
-  }
-}
+```bash
+ln -s /path/to/link-tracker/skill ~/.openclaw/skills/link-tracker
 ```
 
 ## Usage
