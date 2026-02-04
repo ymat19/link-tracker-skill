@@ -4,3 +4,4 @@ data/
 # Python
 __pycache__/
 *.py[cod]
+scripts/.last_line_count
