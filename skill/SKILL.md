@@ -11,6 +11,18 @@ metadata:
 
 Generate tracking URLs and analyze click logs for preference learning.
 
+## Start Server
+
+```bash
+cd ~/repos/link-tracker-skill/skill && docker compose up -d
+```
+
+Check status:
+
+```bash
+curl -s http://192.168.0.29:59934/health
+```
+
 ## Generate Tracking URL
 
 ```python
